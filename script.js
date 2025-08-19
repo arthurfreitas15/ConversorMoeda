@@ -15,11 +15,6 @@ let euro
 let libra
 let bitcoin
 
-document.querySelector("#inputCurrency").placeholder = new Intl.NumberFormat("pt-BR", {
-    style: "currency",
-    currency: "BRL"
-}).format(document.querySelector("#inputCurrency").placeholder)
-
 
 document.querySelector("#original").innerHTML = new Intl.NumberFormat(languagei, {
     style: "currency",
