@@ -127,14 +127,9 @@ function currencySelector() {
             currency: currencyFormatf
         }).format(document.querySelector("#converted").innerHTML)
 
-        convertValues()
-        document.querySelector("#inputCurrency").value = new Intl.NumberFormat(languagei, {
-            style: "currency",
-            currency: currencyFormati
-        }).format(document.querySelector("#inputCurrency").value)
-
+       
     }
-    
+
 }
 
 convertButton.addEventListener("click", convertValues)
