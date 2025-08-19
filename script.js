@@ -132,6 +132,8 @@ function currencySelector() {
 }
 
 convertButton.addEventListener("click", convertValues)
+originalCurrency.addEventListener("change", convertValues)
+finalCurrency.addEventListener("change", convertValues)
 originalCurrency.addEventListener("change", currencySelector)
 finalCurrency.addEventListener("change", currencySelector)
 
