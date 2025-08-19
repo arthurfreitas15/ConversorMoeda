@@ -3,17 +3,20 @@ const originalCurrency = document.querySelector("#original-currency")
 const finalCurrency = document.querySelector("#final-currency")
 const valueInput = document.querySelector("#inputCurrency")
 let currencyFormati = "BRL"
-let currencyFormatf = "BRL"
+let currencyFormatf = "USD"
 let languagei = "pt-BR"
-let languagef = "pt-BR"
-let currency = 1
+let languagef = "en-US"
 let originalCurrencyValue = 1
+let currency = 5.39
+
 
 let real
 let dolar
 let euro
 let libra
 let bitcoin
+
+document.querySelector("#final-currency").value="dolar"
 
 document.querySelector("#inputCurrency").placeholder = new Intl.NumberFormat("pt-BR", {
     style: "currency",
@@ -132,10 +135,10 @@ function currencySelector() {
 }
 
 convertButton.addEventListener("click", convertValues)
-originalCurrency.addEventListener("change", convertValues)
-finalCurrency.addEventListener("change", convertValues)
 originalCurrency.addEventListener("change", currencySelector)
 finalCurrency.addEventListener("change", currencySelector)
+originalCurrency.addEventListener("change", convertValues)
+finalCurrency.addEventListener("change", convertValues)
 
 
 
