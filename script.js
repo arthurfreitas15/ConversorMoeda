@@ -122,7 +122,6 @@ function currencySelector() {
             currency: currencyFormatf
         }).format(document.querySelector("#converted").innerHTML)
 
-       
     }
 
 }
