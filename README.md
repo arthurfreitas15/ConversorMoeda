@@ -27,7 +27,7 @@
 </ul>
 
 <h2 style="margin:24px 0 10px; font-size:22px;">📸 Prévia Visual</h2>
-<img src="Screenshot.png" alt="Prévia do Conversor de Moeda" style="max-width:100%; height:auto; display:block; margin:8px 0 16px; border:0;">
+<img src="./assets/img/Screenshot.png" alt="Prévia do Conversor de Moeda" style="max-width:100%; height:auto; display:block; margin:8px 0 16px; border:0;">
 
 <h2 style="margin:24px 0 10px; font-size:22px;">📂 Estrutura de Arquivos</h2>
 <pre style="margin:0 0 16px; padding:12px; background:#f6f8fa; border:1px solid #e1e4e8; border-radius:6px; font-size:14px; overflow:auto;"><code>📁 ConversorMoeda
