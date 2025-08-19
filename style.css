@@ -22,7 +22,7 @@ main {
 #gif {
     display: flex;
     justify-self: center;
-    width: 300px;
+    width: 150px;
 }
 
 .center {
