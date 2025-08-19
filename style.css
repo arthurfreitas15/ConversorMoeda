@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+body {
+    justify-items: center;
+    background-color: darkcyan;
+
+}
+
+main {
+    display: flex;
+}
+
+#gif {
+    display: flex;
+    justify-self: center;
+    width: 300px;
+}
+
+.center {
+    margin-top: 5vh;
+    background: rgb(255, 255, 255);
+    height: fit-content;
+    width: 50vw;
+    min-width: 450px;
+    border-radius: 40px;
+    padding-bottom: 40px;
+}
+select{ 
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 0 5% 0 5%;
+}
+
+.title-text{
+    align-self: start;
+    margin: 1vh 0 0 0;
+}
+
+.country {
+    height: auto;
+    width: 60px;
+    margin: 1vh 0 0 0;
+}
+
+#arrow {
+    height: auto;
+    width: 60px;
+    margin: 1vh 0 0 0;
+}
+
+
+
+#inputCurrency{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: start;
+    border: 2px solid black;
+}
+
+#fator-conversao{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(112, 112, 112);
+    text-align: start;
+}
+button{
+    margin: 1vh 0 0 0;
+    width: 100%;
+    height: 45px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+    font-style: bold;
+    font-size: 24px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2) ;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(3, 95, 95);
+    }
+button:active{
+    opacity: 0.6;
+}
+
+
+#results{
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 0 0 0;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    border: 4px solid darkmagenta;
+    border-radius: 20px;
+    padding: 0 0 1vh 0;
+}
+
+.results{
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#troca{
+    width: 80px;
+}
+

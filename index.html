@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <title>Conversor de moeda</title>
+</head>
+
+<body>
+    <main>
+        <div class="center">
+            <div class="content">
+                <div class="img">
+                    <img id="gif" src="./assets/gif/intercambio.gif" alt="gif-animado-dinheiro"
+                        alt="Gif-conversor-moeda">
+                </div>
+                <p class="title-text">
+                    Converter de:
+                </p>
+                <select name="moeda-original" id="original-currency">
+                    <option value="real">R$ Real brasileiro</option>
+                    <option value="dolar">US$ Dólar Americano</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="libra">£ Libra</option>
+                    <option value="bitcoin">₿ Bitcoin</option>
+                </select>
+
+
+                <p class="title-text">Converter para:</p>
+                <select name="moeda-final" id="final-currency">
+                    <option value="real">R$ Real brasileiro</option>
+                    <option value="dolar">US$ Dólar Americano</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="libra">£ Libra</option>
+                    <option value="bitcoin">₿ Bitcoin</option>
+                </select>
+
+                <p class="title-text">Valor:</p>
+                <input type="text" id="inputCurrency" placeholder="0">
+
+                <button class="convert">Converter</button>
+
+                <section id="results">
+                    <img class="country" id="originalcountry" src="./assets/img/brasil.png" alt="">
+                    <p id="original-label">BRL</p>
+                    <p class="results" id="original">000</p>
+                    <img id="arrow" src="./assets/img/arrow.svg" alt="arrow-down">
+                    <img class="country" id="finalcountry" src="./assets/img/brasil.png" alt="">
+                    <p id="final-label">BRL</p>
+                    <p class="results" id="converted">000</p>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
